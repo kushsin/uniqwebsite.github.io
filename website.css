@@ -1,0 +1,388 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family:'poppinss', sans-serif;
+}
+
+header
+{
+	background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url(../images/kush3.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+	width: 100%;
+}
+.menu
+{
+	display: inline-flex;
+}
+
+.menu h2
+{
+  margin-left: 30px;
+  margin-top: 20px;
+  text-transform:capitalize;
+  color:blue;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.contect-box button
+{
+
+ float: right;
+ margin-top: 20px;
+ margin-right: 80px;
+ color: #fff;
+ background: #ff4d73;
+ border:none;
+ padding: 10px 20px ;
+ text-transform: capitalize;
+}
+.contect-box button i
+
+{
+  margin-right: 8px;
+}
+.menu .btn .fa
+{ 
+
+	margin-right:10px;
+}
+.banner-text{
+	color: #fff;
+	margin: 16% auto 0;
+	text-align:center; ;
+}
+.banner-text h1{
+	margin-top:20px;
+	font-size:50px;
+	color: orange;
+}
+.banner-text p
+{
+	font-size:20px;
+	margin:20px 0 50px;
+  text-transform: capitalize;
+	
+   
+}
+.banner-text a{
+   text-decoration: none;
+   color: #fff;
+   border: 1px solid #ff4d73;
+   display: block;
+   width: 180px;
+   padding: 10px;
+   margin: auto;
+   background-color:#ff4d73;
+   transition:.5s;
+}
+.banner-text a:hover{
+	background-color: transparent;
+
+
+}
+.content-box{
+	background-color:#f4f3ff;
+	width: 100%;
+	height:100vh;
+}
+h1{
+	text-align: center;
+	padding-top: 50px;
+}
+h1::after{
+	content: '';
+	background-color: #ff4d73;
+	display:block;
+	height: 3px;
+	width:200px;
+	margin: 20px auto 50px;
+
+}
+
+
+  
+  .services i
+ {
+  color:#ff4d73;
+  text-align: center;
+  margin-left: 80px;
+  border:2px solid #ff4d73;
+  font-size: 40px;
+  padding: 20px 20px;
+  border-radius:60px; 
+
+ }  
+
+ .services h3
+ {
+  text-align: center;
+  display:block;
+  margin-top: 10px;
+ }
+ .services p{
+ 	font-size:15px;
+    font-weight: lighter;
+ 	color: #777;
+  text-transform: capitalize;
+ 	text-align:justify;
+  margin-top: 10px;
+
+ }
+ .services span{
+ 	color: #ff4d73;
+ 	transition: .5s;
+ }
+ .services span:hover{
+   color: black;
+   transition: .5s;
+ }
+
+ .services .col-lg-3:hover{
+ 	background-color: #ff4d73;
+ 	cursor: pointer;
+ 	color: #fff;
+ 	box-shadow: -5px 5px 10px 0 rgba(0,0,0,0.4);
+ 	transition: .5s; 
+ }
+ .services:hover i{
+ 	color: #fff;
+  border: 2px solid #fff;
+
+ }
+ .services .col-lg-3:hover p{
+ 	color: #fff;
+ }
+ .services .col-lg-3:hover span{
+ 	color: #fff;
+ }
+ 
+ 
+ 
+ 
+ .Fetures h2
+ {
+ 	margin-top:px;
+ 	margin-left: 60px;
+ }
+ .Fetures h2::after{
+ 	content: '';
+	background-color: #ff4d73;
+	display: block;
+	height: 3px;
+	width:500px;
+	margin: 20px auto 50px;
+	position: absolute;
+	left: 40px;
+
+
+ }
+ .Fetures p
+  {
+  	margin-left: 20px;
+  	margin-top: 70px;
+  	font-size:px;
+  	text-align: center;
+  	word-wrap:break-word;
+  	line-height:30px;
+
+  }
+  .Fetures button{
+  	margin-left: 200px;
+  	background-color: #ff4d73;
+  	color:#fff;
+  	padding: 5px 20px;
+	color:#fff;
+	font-size:16px; 
+	border: 0;
+	position:absolute;
+	margin-top:20px;
+	
+  }
+  .Fetures button:hover
+  {
+  	background-color:green;
+  	color: #fff;
+
+
+  }
+  
+  .love{
+  	color:black;
+  	text-align: center;
+  	font-size: 40px;
+    text-transform: capitalize;
+  }
+  
+  
+  .kush{
+  	background-image:url(../images/house7.jpg);
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	background-attachment: fixed;
+  	position:relative;
+    height:100vh;
+  
+  }
+  .form-group input{
+  
+       margin:5px; 
+  	   padding-right:60%;
+       padding-top: 10px;
+       padding-bottom: 10px;
+       border-style: none;
+  }
+  ::placeholder{
+  
+     text-transform: capitalize;
+     padding-left: 20px;
+     color: black;
+  }
+  .contact-form button{
+
+  }
+  .contect-info{
+  	background-color:;
+  	padding: px;
+  	margin: px;
+  
+  }
+  .follow{
+  	background-color: #fff;
+  	padding: 10px;
+  	margin:20px;
+
+
+  }
+  .contect-info .fa{
+  	margin:10px;
+  	font-size: 20px;
+  	color: #ff4d73;
+  	font-weight: bold;
+  	padding-right: 20px;
+
+  }
+  .head h3
+  {
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  .top h3
+  {
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 20px;
+  }
+  .top p
+  {
+    text-transform: capitalize;
+  }
+  .top i
+  
+  
+
+  .top .col-lg-4
+  {
+    margin-top: 50px;
+  }
+  .top .col-lg-4 a
+  {
+    margin-left: 36%;
+    text-decoration: none;
+    border-style: none;
+    background: #ff4d73;
+    padding: 10px 30px ;
+    color: #fff;
+    text-transform: capitalize;
+  }
+  .top .col-lg-4 a:hover
+  {
+    background: #fff;
+    color: #ff4d73;
+    text-decoration: none;
+    text-transform: capitalize;
+  }
+
+
+  .top i
+  {
+    margin-left:42%;
+    font-size:70px;
+    color:blue; 
+    margin-top: 30px;
+
+  }
+  footer{
+  	width: 100%;
+  	height: 400px;
+  	background-color:#ff4d73;
+    margin-top: 50px;
+  }
+  .last h4
+  {
+    text-align: center;
+    color: #fff;
+    text-transform: capitalize;
+    padding-top: 40px;
+  } 
+  .last p i
+  {
+    font-size: 30px;
+    margin: 10px;
+    color:#fff;
+  }
+  .last p
+  {
+    color: orange;
+    text-transform: capitalize;
+  }
+  .last h6
+  {
+    color: orange;
+    text-transform: capitalize;
+    margin-left: 25%;
+  }
+  .last h6 i
+  {
+    font-size: 20px;
+    
+    color: #fff;
+  }
+.last ul
+{
+  list-style: none;
+  margin-left: 80px;
+  margin-top: 30px;
+}
+.last li
+{
+  color:orange;
+  text-transform: capitalize;
+}
+.last  li i
+{
+  color: blue;
+  margin-right: 10px;
+  margin-top: 4px;
+  padding:14px 16px ;
+  border-radius:40px;
+  background:#f4f3ff;
+
+}
+.button
+{
+  background-color: blue;
+  width: 100%;
+  height:50px;
+  margin-bottom: 20px;
+}
+.button h5
+{
+  text-transform: capitalize;
+  text-align: center;
+  color: #fff;
+}
